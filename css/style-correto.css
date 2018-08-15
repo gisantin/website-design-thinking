@@ -1,0 +1,75 @@
+/*GERAL*/
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  color: purple;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+
+}
+
+/*LAYOUT*/
+.coluna-metade{
+  width: 49%; /*% é relativa à mae*/
+  display: inline-block;
+  padding: 20px;
+
+}
+
+
+
+/*CABEÇALHO*/
+.cabecalho{
+  text-align: center;
+  
+}
+
+/*CONTEUDO*/
+.conteudo{
+  width: 900px;
+  margin: 0 auto;
+
+}
+
+.conteudo__listas{
+  vertical-align: top;
+}
+
+li{
+  padding:10px;
+}
+
+/*BOTÃO*/
+.botao{
+  padding: 10px 20px;
+  border-radius: 7px;
+  display: block;
+  width: 65%;
+  margin: 15px auto;
+  text-align: center;
+
+}
+
+.botao_roxo{
+  background-color: blueviolet
+  color white;
+  transition:all 5s;   
+}
+
+.botao_transparente{
+  color: blueviolet;
+  border: solid 1px blueviolet;
+  
+}
+
+.botao_roxo:hover{
+  background-color: red;
+  color: purple;
+  box-shadow: 0 0 20px rgba(0,0,0,3);
+
+
+}
+

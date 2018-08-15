@@ -1,0 +1,88 @@
+/* GERAL */
+
+body{
+
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #5D1277
+  
+}
+
+/* FONT */
+
+h1{
+
+  font-size: 36px;
+  text-align: center;
+
+  
+
+}
+
+h2{
+
+  font-size: 24px;
+  text-align: center;
+}
+
+p{
+
+  font-size: 24px;
+
+
+}
+
+.todo{
+  margin: 0 auto 0 auto; 
+}
+
+
+.listas{
+  
+  display: inline-block;
+  width: 400px;
+  margin-left:  90px;
+  margin-top: 50px;
+  
+}
+
+.imagem{
+  display: inline-block;
+  
+  height:381px;
+  margin-left: 200px;
+
+}
+.imagem img{
+  width: 350px;
+}
+
+
+li{
+
+  padding: 5.5px;
+}
+
+a{
+  display: block;
+  width: 195px;
+  height: 10px;
+  text-decoration: none;
+  border: 1px solid #5D1277;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px auto;
+
+}
+.btn-roxo{
+
+  background-color: #5D1277;
+  color: white;
+  font-size: 12px;
+}
+
+.btn-branco{
+ color:  #5D1277;
+ font-size:12px;
+
+}
